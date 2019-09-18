@@ -1,0 +1,161 @@
+.navbar-nav li:hover>.dropdown-menu {
+    display: block;
+  }
+
+  @media (min-width: 992px){
+    #navbarItems1 {
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      grid-gap: 70px;
+      padding-left: 10%;
+    }
+    #navbarItems2 {
+      display: grid;
+      grid-template-columns: auto;
+      padding-right: 5%;
+    }
+    .card-deck{
+      display: grid;
+      grid-template-columns: auto;
+      grid-template-rows: auto;
+      padding-top: 20px;
+      margin-top: 1px;
+    }
+}
+
+
+.background {
+background-color: lightgrey;
+width: 100%;
+height: 500px;
+}
+
+body{
+    background-color: white;
+  }
+
+.grid-container1 {
+    display: grid;
+    height: 50px;
+  }
+
+  form {
+    display: grid;
+    grid-template-columns: 400px;
+    grid-gap: 16px;
+    justify-content: center;
+}
+
+.card-deck{
+  display: grid;
+  grid-template-columns: auto auto;
+  padding-top: 1px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+
+.cardContainer{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  border: 1.5px solid rgb(224, 221, 221);
+  border-radius: 8px;
+  margin: 40px;
+}
+
+.card-body{
+    display: grid;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.containerCarousel {
+  display: grid;
+  width: 1500px;
+  align-items: center;
+  justify-items: center; /* adjusted */
+  padding-top: 85px;
+  grid-gap: 20px;
+}
+
+.carousel-inner > .item {
+ max-height: 294px;
+max-width: 500px;
+}
+
+.carouselItem {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.carousel {
+  max-height:294px;
+  max-width: 500px;
+  }
+
+  .d-blockw-100 {
+    max-height:294px;
+    max-width: 500px;
+  }
+
+
+
+
+  .contactHeader{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: auto;
+    padding-top: 20px;
+}
+
+
+.cards{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-rows: auto auto auto;
+  padding-top: 20px;
+  row-gap: 20px;
+}
+
+.card{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-rows: auto auto;
+  max-height: 200px;
+}
+
+.frames{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: auto auto;
+  padding: 20px;
+  column-gap: 20px;
+  
+}
+
+.frame{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border: 1.5px solid rgb(224, 221, 221);
+  border-radius: 8px;
+  width: 600px;
+}
+
+
+
+
+
+
+
+
+
+
+
+  
