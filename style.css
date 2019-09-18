@@ -131,21 +131,26 @@ max-width: 500px;
 
 .frames{
   display: grid;
+  align-items: flex-start;
   justify-content: center;
-  align-items: center;
-  grid-template-columns: auto auto;
-  padding: 20px;
-  column-gap: 20px;
-  
+  grid-template-rows: auto auto;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  row-gap: 20px;
 }
 
 .frame{
   display: grid;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
   border: 1.5px solid rgb(224, 221, 221);
   border-radius: 8px;
-  width: 600px;
+  height: 100%;
+  max-width: 600px;
 }
 
 
