@@ -14,13 +14,7 @@
       grid-template-columns: auto;
       padding-right: 5%;
     }
-    .card-deck{
-      display: grid;
-      grid-template-columns: auto;
-      grid-template-rows: auto;
-      padding-top: 20px;
-      margin-top: 1px;
-    }
+
 }
 
 
@@ -44,30 +38,6 @@ body{
     grid-template-columns: 400px;
     grid-gap: 16px;
     justify-content: center;
-}
-
-.card-deck{
-  display: grid;
-  grid-template-columns: auto auto;
-  padding-top: 1px;
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-
-.cardContainer{
-  display: grid;
-  grid-template-columns: 50% 50%;
-  border: 1.5px solid rgb(224, 221, 221);
-  border-radius: 8px;
-  margin: 40px;
-}
-
-.card-body{
-    display: grid;
-    height: 350px;
-    justify-content: center;
-    align-items: center;
 }
 
 

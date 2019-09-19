@@ -1,0 +1,62 @@
+@media screen and (min-width: 30em) and (max-width: 60em){
+
+    .card-deck{
+        display: grid;
+        grid-template-columns: auto;
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+
+    .cardContainer{
+        display: grid;
+        grid-template-columns: auto;
+        border: 1.5px solid rgb(224, 221, 221);
+        border-radius: 8px;
+        margin: 40px;
+      }
+
+      
+      .card-body{
+        display: grid;
+        justify-content: center;
+        align-items: flex-start;;
+    }
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+      
+}
+
+@media screen and (min-width: 60em){
+    .card-deck{
+        display: grid;
+        grid-template-columns: auto auto;
+        padding-top: 1px;
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+      
+      
+      .cardContainer{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        border: 1.5px solid rgb(224, 221, 221);
+        border-radius: 8px;
+        margin: 40px;
+      }
+      
+      .card-body{
+          display: grid;
+          height: 350px;
+          justify-content: center;
+          align-items: center;
+      }
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+      
+}
