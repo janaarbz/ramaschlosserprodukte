@@ -1,6 +1,7 @@
-@media screen and (min-width: 30em) and (max-width: 60em){
+@media screen and (max-width: 60em){
 
     .card-deck{
+        box-sizing: border-box;
         display: grid;
         grid-template-columns: auto;
         margin-left: 20px;
@@ -8,6 +9,7 @@
       }
 
     .cardContainer{
+        box-sizing: border-box;
         display: grid;
         grid-template-columns: auto;
         border: 1.5px solid rgb(224, 221, 221);
@@ -17,15 +19,13 @@
 
       
       .card-body{
+        box-sizing: border-box;
         display: grid;
         justify-content: center;
         align-items: flex-start;;
     }
 
-      img {
-        width: 100%;
-        height: auto;
-      }
+   
       
 }
 

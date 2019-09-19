@@ -17,7 +17,6 @@
 
 }
 
-
 .background {
 background-color: lightgrey;
 width: 100%;
@@ -41,34 +40,7 @@ body{
 }
 
 
-.containerCarousel {
-  display: grid;
-  width: 1500px;
-  align-items: center;
-  justify-items: center; /* adjusted */
-  padding-top: 85px;
-  grid-gap: 20px;
-}
 
-.carousel-inner > .item {
- max-height: 294px;
-max-width: 500px;
-}
-
-.carouselItem {
-  display: grid;
-  grid-template-columns: auto auto;
-}
-
-.carousel {
-  max-height:294px;
-  max-width: 500px;
-  }
-
-  .d-blockw-100 {
-    max-height:294px;
-    max-width: 500px;
-  }
 
 
 
