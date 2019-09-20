@@ -1,49 +1,8 @@
-.navbar-nav li:hover>.dropdown-menu {
-    display: block;
-  }
-
-  @media (min-width: 992px){
-    #navbarItems1 {
-      display: grid;
-      grid-template-columns: auto auto auto auto;
-      grid-gap: 70px;
-      padding-left: 10%;
-    }
-    #navbarItems2 {
-      display: grid;
-      grid-template-columns: auto;
-      padding-right: 5%;
-    }
-
-}
-
-.background {
-background-color: lightgrey;
-width: 100%;
-height: 500px;
-}
-
-body{
-    background-color: white;
-  }
 
 .grid-container1 {
     display: grid;
     height: 50px;
   }
-
-  form {
-    display: grid;
-    grid-template-columns: 400px;
-    grid-gap: 16px;
-    justify-content: center;
-}
-
-
-
-
-
-
 
   .contactHeader{
     display: grid;

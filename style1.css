@@ -1,0 +1,80 @@
+@media screen and (max-width: 60em){
+    .background {
+        background-color: lightgrey;
+        width: 100%;
+        height: 300px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        }
+
+        
+
+        .card-body{
+            display: grid;
+            justify-content: center;
+            align-items: center;
+           
+        }
+
+        .carousel {
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            max-width: 290px;
+            }
+
+
+}
+
+
+
+@media screen and (min-width: 60em){
+    .background {
+        background-color: lightgrey;
+        
+        width: 100%;
+        height: 420px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        }
+        img {
+            width: 100%;
+            height: auto;
+          }
+
+          .card-body{
+            display: grid;
+            justify-content: center;
+            align-items: center;
+           
+        }
+
+        .carousel {
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            max-width: 410px;
+            }
+
+}
+
+
+.impressium{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 3em;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4em;
+}
+
+
+
+
+
+  
+      
+
+    
