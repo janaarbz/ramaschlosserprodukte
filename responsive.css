@@ -32,7 +32,9 @@
 @media screen and (min-width: 60em){
     .card-deck{
         display: grid;
+
         grid-template-columns: auto auto;
+
         padding-top: 1px;
         margin-left: 20px;
         margin-right: 20px;
