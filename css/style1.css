@@ -1,0 +1,165 @@
+@media screen and (max-width: 60em){
+    .background {
+        background-color:rgb(52, 58, 64);
+        width: 100%;
+        height: 700px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        }
+
+        
+
+        .card-body{
+            display: grid;
+            justify-content: center;
+            align-items: center;
+           
+        }
+
+        .carousel {
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            max-width: 290px;
+            }
+
+            .card-deck{
+                box-sizing: border-box;
+                display: grid;
+                grid-template-columns: auto;
+                margin-left: 1em;
+                margin-right: 1em;
+              }
+        
+            .cardContainer{
+                box-sizing: border-box;
+                display: grid;
+                grid-template-columns: auto;
+            
+                border-radius: 8px;
+                margin: 1em;
+              }
+
+           
+}
+
+
+
+@media screen and (min-width: 60em){
+    .background {
+        background-color:rgb(52, 58, 64);
+        display: grid;
+        width: 100%;
+        height: 400px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+  
+        }
+
+        .background2 {
+            background-color:rgb(52, 58, 64);
+            display: grid;
+            width: 100%;
+            height: 100px;
+
+            justify-content: center;
+            align-items: center;
+      
+            }
+        
+    
+
+          .card-body{
+            display: grid;
+            justify-content: center;
+            align-items: center;
+           
+        }
+
+        .carousel {
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            max-width: 410px;
+            }
+
+            .card-deck{
+                display: grid;
+        
+                grid-template-columns: auto auto;
+        
+                padding-top: 1px;
+                margin-left: 20px;
+                margin-right: 20px;
+              }
+              
+              
+              .cardContainer{
+                display: grid;
+                grid-template-columns: 50% 50%;
+            
+                border-radius: 8px;
+                margin: 40px;
+              }
+
+
+              .vorteileContainer{
+                display: grid;
+                grid-template-rows: 20% 80%;
+                justify-content: center;
+            align-items: center;
+              }
+
+              .vorteileHeader{
+                display: grid;
+                justify-content: center;
+                align-items: center;
+                padding-top: 40px;
+                padding-bottom: 30px;
+              }
+
+              .vorteileContent{
+                display: grid;
+                grid-template-columns: auto auto;
+                column-gap: 50px;
+                row-gap: 50px;
+              }
+
+              .vorteilHeader{
+                display: grid;
+                justify-content: center;
+                align-items: center;
+              }
+              .vorteilContent{
+                display: grid;
+                justify-content: center;
+                align-items: center;
+              }
+
+
+
+
+
+}
+
+
+.impressium{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 3em;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4em;
+}
+
+
+
+
+
+
+  
+      
+
+    
