@@ -24,6 +24,10 @@
             max-width: 290px;
             }
 
+            #carouselExampleIndicators {
+              min-height: 217px;
+            }
+
             .card-deck{
                 box-sizing: border-box;
                 display: grid;
@@ -41,6 +45,55 @@
                 margin: 1em;
               }
 
+
+        
+
+              .vorteileHeader{
+                display: grid;
+                justify-content: center;
+                align-items: center;
+                padding-top: 40px;
+                padding-bottom: 30px;
+              }
+
+
+              .footer {
+                background-color:rgb(52, 58, 64);
+                display: grid;
+                grid-template-columns: auto;
+                width: 100%;
+                height: 450px;
+                padding-top: 20px;
+                padding-bottom: 15px;
+                row-gap: 40px;
+                justify-content: center;
+                align-items: center;
+                }
+
+                
+.footerLinks1 {
+  display: grid;
+  grid-template-columns: auto;
+  row-gap: 3px;
+  justify-content: left;
+  align-items: center;
+}
+
+.footerLinks2 {
+display: grid;
+grid-template-columns: auto;
+row-gap: 3px;
+justify-content: left;
+align-items: center;
+}
+
+.footerInfos1 {
+display: grid;
+grid-template-columns: auto;
+row-gap: 3px;
+justify-content: left;
+align-items: center;
+}
            
 }
 
@@ -83,6 +136,11 @@
             justify-content: center;
             align-items: center;
             max-width: 410px;
+  
+            }
+
+            #carouselExampleIndicators {
+              min-height: 307px;
             }
 
             .card-deck{
@@ -105,21 +163,6 @@
               }
 
 
-              .vorteileContainer{
-                display: grid;
-                grid-template-rows: 20% 80%;
-                justify-content: center;
-            align-items: center;
-              }
-
-              .vorteileHeader{
-                display: grid;
-                justify-content: center;
-                align-items: center;
-                padding-top: 40px;
-                padding-bottom: 30px;
-              }
-
               .vorteileContent{
                 display: grid;
                 grid-template-columns: auto auto;
@@ -127,39 +170,131 @@
                 row-gap: 50px;
               }
 
-              .vorteilHeader{
+
+              .footer {
+                background-color:rgb(52, 58, 64);
                 display: grid;
-                justify-content: center;
-                align-items: center;
-              }
-              .vorteilContent{
-                display: grid;
-                justify-content: center;
-                align-items: center;
-              }
+                grid-template-columns: auto auto auto auto auto;
+                width: 100%;
+                height: 150px;
+                padding-top: 30px;
+                padding-bottom: 15px;
+                }
 
+                
+.footerLinks1 {
+  display: grid;
+  grid-template-columns: auto;
+  row-gap: 3px;
+  justify-content: center;
+  align-items: center;
+}
 
+.footerLinks2 {
+display: grid;
+grid-template-columns: auto;
+row-gap: 3px;
+justify-content: center;
+align-items: center;
+}
 
-
+.footerInfos1 {
+display: grid;
+grid-template-columns: auto;
+row-gap: 3px;
+justify-content: center;
+align-items: center;
+}
 
 }
 
 
-.impressium{
+.vorteileContainer{
+  display: grid;
+  grid-template-rows: 20% 80%;
+  justify-content: center;
+align-items: center;
+}
+
+.vorteileHeader{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+
+
+.vorteilHeader{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.vorteilContent{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+.footerLinksA {
     display: grid;
-    grid-template-columns: auto auto;
-    column-gap: 3em;
+    grid-template-columns: auto;
+    row-gap: 3px;
     justify-content: center;
     align-items: center;
-    padding-bottom: 4em;
+}
+
+.footerLinksB {
+  display: grid;
+  grid-template-columns: auto;
+  row-gap: 3px;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerInfosA {
+  display: grid;
+  grid-template-columns: auto;
+  row-gap: 3px;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerInfo {
+  color: rgb(124, 119, 119);
+  height: 3px;
+
 }
 
 
 
 
-
-
-  
-      
+  html, body {
+    height: 100%;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  .content {
+    flex: 1 0 auto;
+  }
+  .footer {
+    flex-shrink: 0;
+  }
+   
+  .impressiumLink {
+    color: rgb(124, 119, 119);
+ 
+  }
+  .impressiumLink:hover {
+    text-decoration: none;
+    color: rgb(124, 119, 119);
+  }
 
     

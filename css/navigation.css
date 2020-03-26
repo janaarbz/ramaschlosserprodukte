@@ -1,4 +1,4 @@
-ul {
+.topnavbarUL {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -6,16 +6,22 @@ ul {
   background-color:rgb(52, 58, 64);
 }
 
-li {
+.topnavbarDIV2 li {
   float: left;
 }
 
-li a {
+.topnavbarDIV2 li a {
   display: block;
-  color: rgb(124, 119, 119);
+
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+}
+
+.topnavbarDIV2 li a:not(.active)  {
+
+  color: rgb(124, 119, 119);
+
 }
 
 li a:hover:not(.active) {
