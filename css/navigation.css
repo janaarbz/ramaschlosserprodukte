@@ -19,9 +19,7 @@
 }
 
 .topnavbarDIV2 li a:not(.active)  {
-
   color: rgb(124, 119, 119);
-
 }
 
 li a:hover:not(.active) {
