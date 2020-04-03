@@ -50,11 +50,15 @@ li a:hover {
 
 @media screen and (max-width: 60em){
   .navIcon {
-    display: none;
+    display: grid;
+    justify-content: center;
+    padding-top: 15px;
+    height: 40px;
   }
 
   .topnavbarUL {
     display: grid;
+    grid-template-rows: auto auto;
     justify-content: center;
   }
   .topnavbarDIV1 {
@@ -71,7 +75,7 @@ li a:hover {
     padding-top: 10px;
     padding-left: 50px;
   }
-
+                                                                                     
   .topnavbarDIV1 {
     position: absolute;
     padding-top: 60px;
