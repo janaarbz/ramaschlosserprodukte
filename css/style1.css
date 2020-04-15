@@ -21,8 +21,12 @@
             display: grid;
             justify-content: center;
             align-items: center;
-            max-width: 290px;
+           
             }
+
+            .carousel.slide.index {
+           
+              }
 
             #carouselExampleIndicators {
               min-height: 217px;
@@ -138,13 +142,16 @@ align-items: center;
            
         }
 
-        .carousel {
-            display: grid;
-            justify-content: center;
-            align-items: center;
+        .carousel.slide.index {
             max-width: 410px;
   
             }
+
+            .carousel {
+              display: grid;
+              justify-content: center;
+              align-items: center;
+              }
 
             #carouselExampleIndicators {
               min-height: 307px;
@@ -286,6 +293,9 @@ align-items: center;
 
 }
 
+.footerHeader {
+  color: white;
+}
 
    
   .impressiumLink {
