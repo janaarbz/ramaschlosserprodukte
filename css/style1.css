@@ -105,12 +105,25 @@ row-gap: 3px;
 justify-content: left;
 align-items: center;
 }
+
+.impressumFrame {
+  display: grid;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  border-radius: 8px;
+  height: 100%;
+}
            
 }
 
 
 
 @media screen and (min-width: 60em){
+
+
     .background {
         background-color:rgb(52, 58, 64);
         display: grid;
@@ -220,6 +233,18 @@ justify-content: center;
 align-items: center;
 }
 
+.impressumFrame {
+  display: grid;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 20%;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  border-radius: 8px;
+  height: 100%;
+  max-width: 70%;
+}
+
 }
 
 
@@ -312,5 +337,8 @@ align-items: center;
     justify-content: center; 
     padding-top: 40px;
   }
+
+
+
 
     
